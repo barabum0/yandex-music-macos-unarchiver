@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "unarchive": "sh -c 'asar extract \"${0}/Contents/Resources/app.asar\" app'"
+    "unarchive": "sh -c 'asar extract \"${0}/Contents/Resources/app.asar\" app'",
+    "archive": "source pack.sh"
   },
   "keywords": [],
   "author": "sushka",
